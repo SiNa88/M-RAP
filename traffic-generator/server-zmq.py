@@ -21,7 +21,7 @@ while True:
     print("%s" % message)
     ips = str(message).split(' ')
     print (ips[0])
-    tup = commands.getstatusoutput("docker run encod")
+    tup = commands.getstatusoutput("docker run sina88/ubuntu-encoding:amd64")
     #print (type(tup[1]))
     splittt = str(tup[1]).splitlines()
     #  Do some 'work'
